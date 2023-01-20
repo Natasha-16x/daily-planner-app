@@ -1,1 +1,1 @@
-# daily-planner-app
+## Daily planner app
