@@ -1,19 +1,19 @@
-### Daily planner app
+# Daily planner app
 
-# Description
-
-
-# screenshot of apllication
-
-# Link to the deployed site
+### Description
 
 
-# usage
+### screenshot of apllication
+
+### Link to the deployed site
 
 
-# credits
+### usage
 
 
-# license 
+### credits
+
+
+### license 
 
 MIT License
