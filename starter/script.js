@@ -3,6 +3,7 @@
 let hourNow = moment().format('h');
 let hourNow24= parseInt(moment().format('HH'));
 let hourNowInt = parseInt(hourNow);
+let Timer;
 
 const firstHour = $('#hour1').text();
 const secondHour = $('#hour2').text();
@@ -50,6 +51,41 @@ displayTime();
 
 
 // Color-code each timeblock based on past, present, and future when the timeblock is viewed.
+
+colorCoding();
+
+function colorCoding() {
+
+  TIMER = setInterval(colorCoding, 1000);
+  // Test check: hourNow24 = 20;
+  if(hourNow24 >= 9 && hourNow24 <= 17) {
+
+    for (let i =1; i<=9 ; i++) { 
+     let hourInInt = parseInt($('#time'+i).text());
+
+      if (hourInInt < 9) {
+        hourInInt = hourInInt + 12;
+      }
+      
+      if (hourInInt == hourNow24) {
+        $('#text'+i).css('background-color', '#FB8F78');
+        continue;
+      }
+      
+      if (hourInInt < hourNow24) {
+        $('#text'+i).css('background-color', 'lightgray');
+      } 
+      else {
+        $('#text'+i).css('background-color', 'lightgreen');
+      }
+    }
+
+  }
+  else {
+    clearInterval(TIMER);
+    $('textarea').css('background-color', 'pink');
+  }
+}
   
   //Allow a user to enter an event when they click a timeblock
 
