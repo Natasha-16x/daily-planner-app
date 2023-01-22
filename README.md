@@ -8,7 +8,7 @@ The diary should show the standard working hours (9am to 5pm). The application w
 Each time block should include the hour that it is, a text field which holds user input and a save button to save the tasks into local storage. Each hour block should  be colour coded which will change depending on the time of the day. At the top of the page, the app should display the current day and time.
 
 ## screenshot of apllication
-![screenshot](/images/screencapture-file-C-Users-user-Desktop-week-7-challenge-daily-planner-app-starter-index-html-2023-01-22-17_56_05.png)
+![screenshot](/images/screencapture-file-C-Users-user-Desktop-week-7-challenge-daily-planner-app-index-html-2023-01-22-18_04_14.png)
 
 ## Link to the deployed site
 [daily-planner-app](https://natasha-16x.github.io/daily-planner-app/)
