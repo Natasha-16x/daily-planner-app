@@ -90,7 +90,6 @@ function colorCoding() {
   //Allow a user to enter an event when they click a timeblock
 
    // Save the event in local storage when the save button is clicked in that timeblock.
-// Store user input in local Storage
 
 $('#btn1').click(function() {
     if($('#text1').val()) {
@@ -185,5 +184,3 @@ $('#btn1').click(function() {
    
 
 
-
-   // Persist events between refreshes of a page
