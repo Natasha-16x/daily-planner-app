@@ -1,4 +1,4 @@
-## Daily planner app
+### Daily planner app
 
 # Description
 
@@ -8,12 +8,12 @@
 # Link to the deployed site
 
 
-## usage
+# usage
 
 
-## credits
+# credits
 
 
-## license 
+# license 
 
 MIT License
